@@ -21,3 +21,20 @@ while true; do
     sleep 10
 done
 #Maakthon
+
+# Rotate IP with tools itself
+# #!/bin/bash
+
+# WORDLIST="words.txt"
+# TARGET="http://target.onion/FUZZ"
+
+# split -l 50 "$WORDLIST" word_chunk_
+
+# for chunk in word_chunk_*; do
+#   echo -e 'AUTHENTICATE ""\nSIGNAL NEWNYM\nQUIT' | nc 127.0.0.1 9051
+#   sleep 5
+
+#   torsocks ffuf -u "$TARGET" -w "$chunk"
+
+#   sleep 10
+# done
