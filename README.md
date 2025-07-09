@@ -1,7 +1,6 @@
 # Tor IP Rotator - `rotateIP.sh`
 
 🔄 Rotates your Tor IP every **10 seconds**  
-✅ Useful for testing, scraping, and avoiding rate limits.
 
 ---
 
